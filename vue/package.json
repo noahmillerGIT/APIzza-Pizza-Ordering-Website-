@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "vue-particles": "^1.0.9"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}

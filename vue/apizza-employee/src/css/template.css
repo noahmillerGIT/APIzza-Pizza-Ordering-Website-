@@ -1,0 +1,36 @@
+.background{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-template-areas:
+     ". logophoto ."
+     ". mainbox ."
+     ". . ."
+
+}
+.mainbox{
+    width: 0.3fr;
+    height: auto;
+    text-align: center;
+    grid-area: mainbox;
+    background-color: ivory;
+    border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+
+.basicHeaderA{
+    border-radius: 25px;
+    padding: 20px;
+    
+}
+.logophoto{
+height: 0.3fr;
+width: auto;
+grid-area: logophoto;
+}
